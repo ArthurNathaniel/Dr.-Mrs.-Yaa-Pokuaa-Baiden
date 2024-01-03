@@ -18,30 +18,171 @@
       height: 100%;
       object-fit: cover;
   }
-  
-  .swiper-text{
-    position: absolute;
-    color: #fff;
-    right:  50%;
-    padding-left: 10%;
-    text-align: left;
+
+  .swiper-text {
+      position: absolute;
+      color: #fff;
+      right: 40%;
+      padding-left: 10%;
+      text-align: left;
   }
 
-  .swiper-text h1{
-    width: 100%;
-    font-size: 70px;
-  }
-  .swiper-text p{
-    padding-block: 15px;
-  }
-  .swiper-btn button{
-    background-color: darkred;
-    border: none;
-    padding: 15px 45px;
-    border-radius: 30px;
+  .swiper-text h1 {
+      width: 100%;
+      font-size: 70px;
   }
 
-  .swiper-btn a{
-    color: #fff;
-    text-decoration: none
+  .swiper-text p {
+      padding-block: 15px;
   }
+
+  .swiper-btn button {
+      background-color: rgb(192, 28, 28);
+      border: none;
+      padding: 15px 45px;
+      border-radius: 30px;
+      margin-top: 20px;
+  }
+
+  .swiper-btn a {
+      color: #fff;
+      text-decoration: none
+  }
+
+  .about-her {
+      background-color: rgb(192, 28, 28);
+      color: #fff;
+      padding: 0 10%;
+      padding-block: 70px;
+      text-align: center;
+  }
+
+  .about-her h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+  }
+
+  .about-her p {
+      margin-bottom: 20px;
+  }
+
+  .about-her-btn button {
+      padding: 15px 45px;
+      border: none;
+      border-radius: 30px;
+  }
+
+  .about-her-btn button a {
+      color: rgb(192, 28, 28);
+      text-decoration: none;
+  }
+
+  .about-her-btn button span {
+      padding-left: 10px;
+  }
+
+  .projects {
+      margin-top: 70px;
+      padding: 0 10%;
+  }
+
+  .projects-title h1 {
+      font-size: 45px;
+      color: rgb(192, 28, 28);
+  }
+
+  .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .project-card {
+      width: 95%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin-top: 40px;
+  }
+
+  .project-images {
+      height: 270px;
+      width: 100%;
+      background-image: url(../images/logo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+  }
+
+  .project-info {
+
+      padding: 0 5%;
+      padding-block: 20px;
+      /* text-align: center; */
+  }
+
+  .project-info p {
+      margin-top: 10px;
+  }
+
+  .project-btn button {
+      padding: 15px 45px;
+      border: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      background-color: rgb(192, 28, 28);
+      
+  }
+
+  .project-btn button a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .project-btn button span {
+      padding-left: 10px;
+  }
+
+  .gallery-bg {
+      margin-top: 70px;
+      padding: 0 10%;
+      background-color: navy;
+      padding-block: 70px;
+  }
+
+  .gallery-title h1{
+    color: #fff;
+    font-size: 45px;
+  }
+
+  .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .photo-one {
+      width: 95%;
+      height: 250px;
+      margin-top: 50px;
+  }
+
+  .photo-one img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+.swiper-button-next,.swiper-button-prev{
+    font-size: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: red;
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    font-size: 25px ;
+    font-weight: 900;
+}

@@ -78,7 +78,7 @@ body {
  }
 
  .nav-social-media span{
-    background-color: #8b0000;
+    background-color: rgb(192, 28, 28);
    height: 30px;
    width: 30px;
    display: flex;
@@ -95,5 +95,5 @@ body {
  }
 
  .nav-links a.active {
-     color: darkred;
+     color: rgb(192, 28, 28);
  }

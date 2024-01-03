@@ -7,7 +7,8 @@
             <a href="index.php" <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>>Home</a>
             <a href="about.php" <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'class="active"'; ?>>About Us</a>
             <a href="projects.php" <?php if (basename($_SERVER['PHP_SELF']) == 'projects.php') echo 'class="active"'; ?>>Projects</a>
-            <a href="news.php" <?php if (basename($_SERVER['PHP_SELF']) == 'news.php') echo 'class="active"'; ?>>News & Events</a>
+            <a href="gallery.php" <?php if (basename($_SERVER['PHP_SELF']) == 'gallery.php') echo 'class="active"'; ?>>Gallery</a>
+            <!-- <a href="news.php" <?php if (basename($_SERVER['PHP_SELF']) == 'news.php') echo 'class="active"'; ?>>News & Events</a> -->
             <a href="contact.php" <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"'; ?>>Contact Us</a>
         </div>
     </div>
